@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://i2.wp.com/1812blockhouse.com/wp-content/uploads/2020/05/graph-3078540_1280.png?fit=1280%2C853&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+label{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+label:hover{
+    color: gray;
+    
+}
+option{
+    color:  blue;
+    font-weight: 700;
+}
+
+ button{
+    padding: 0.35em 1.2em;
+    /* border: 0.1em solid white; */
+   border: 0.1em solid black;
+   border-radius: 0.50em;
+   font-size: 18px;
+    
+ } 
+ button:hover{
+     color: white;
+     background: black ;
+ }
+ 
+/* @media all and (max-width:30em){
+ .but{
+      display:block;
+      margin:0.4em auto;
+     }
+    } */
+#loading_container{
+    display: none; 
+    width: 200px;
+    margin-top: 1%;
+    margin-left: 45%;
+    margin-right: auto;
+  }
+  
+  #currency_container{
+    
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right: auto;
+  }
+  
+  #exchange_chart{
+    
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  #exchange{
+      
+    margin-left: 20px;
+    width: 40%;
+  }
+  
+  #chartContainer{
+    
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #para{
+    
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1%;
+  }
+  
+  #table_container{
+   
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  #download_data{
+    display: none;
+    margin-top: 20px;
+    margin-left: 42%;
+    margin-right: auto;
+  }
