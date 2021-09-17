@@ -1,4 +1,4 @@
-var api = "UO20Y6XBWDC3YDW7"; // get your own api (https://www.alphavantage.co/support/#api-key)
+var api = "......"; // get your own api (https://www.alphavantage.co/support/#api-key)
 var from_currency = null;
 var to_currency = null;
 var forex_dps = [];
